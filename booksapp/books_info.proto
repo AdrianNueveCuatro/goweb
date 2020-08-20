@@ -4,6 +4,7 @@ package booksapp;
 service BookInfo {
   rpc addBook(Book) returns (BookID);
   rpc getBook(BookID) returns (Book);
+  rpc deleteBook(BookID) returns (BookID);
 }
 
 message Book {
