@@ -1,0 +1,1 @@
+web: initial-app
